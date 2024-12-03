@@ -1,0 +1,14 @@
+{
+  "name": "temp-cf-indirect-short",
+  "version": "1.0.0",
+  "license": "MIT",
+  "type": "module",
+  "private": true,
+  "sideEffects": false,
+  "dependencies": {
+    "@indirect/short": "npm:@jsr/indirect__short@^1.4.1"
+  },
+  "devDependencies": {
+    "esbuild": "0.24.0"
+  }
+}
