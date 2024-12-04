@@ -15,6 +15,6 @@ Specify different main file:
 # wrangler.toml
 
 [build]
-command = "node build.mjs main-ttl.js"
+command = "node build.mjs main-ttl.ts"
 ```
 
