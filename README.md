@@ -2,13 +2,6 @@ Template repo for deploy https://jsr.io/@indirect/short onto **Cloudflare Worker
 
 Replace `KV_NAMESPACE_ID` within the `wrangler.toml` to your own.
 
-To use with GitHub Actions, remember to setup your own repository secrets:
-
-- `KV_NAMESPACE_ID`
-- `CLOUDFLARE_API_TOKEN`
-- `CLOUDFLARE_ACCOUNT_ID`
-- `CLOUDFLARE_DEPLOY_NAME`
-
 Specify different main file:
 
 ```toml
@@ -17,4 +10,11 @@ Specify different main file:
 [build]
 command = "node build.mjs main-ttl.ts"
 ```
+
+To use with GitHub Actions, remember to setup your own repository secrets:
+
+- `KV_NAMESPACE_ID`
+- `CLOUDFLARE_API_TOKEN`
+- `CLOUDFLARE_ACCOUNT_ID`
+- `CLOUDFLARE_DEPLOY_NAME`
 
