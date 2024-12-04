@@ -9,3 +9,12 @@ To use with GitHub Actions, remember to setup your own repository secrets:
 - `CLOUDFLARE_ACCOUNT_ID`
 - `CLOUDFLARE_DEPLOY_NAME`
 
+Specify different main file:
+
+```toml
+# wrangler.toml
+
+[build]
+command = "node build.mjs main-ttl.js"
+```
+
