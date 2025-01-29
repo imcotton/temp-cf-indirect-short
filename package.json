@@ -6,7 +6,7 @@
   "private": true,
   "sideEffects": false,
   "dependencies": {
-    "@indirect/short": "npm:@jsr/indirect__short@^1.4.3"
+    "@indirect/short": "npm:@jsr/indirect__short@^1.4.4"
   },
   "devDependencies": {
     "esbuild": "0.24.0"
