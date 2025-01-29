@@ -1,2 +1,2 @@
-export { default } from '@indirect/short/deploy/unstable-cloudflare';
+export { default } from '@indirect/short/deploy/cloudflare';
 
