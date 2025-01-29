@@ -1,4 +1,4 @@
-import { make } from '@indirect/short/deploy/unstable-cloudflare';
+import { make } from '@indirect/short/deploy/cloudflare';
 
 export default await make({
 
