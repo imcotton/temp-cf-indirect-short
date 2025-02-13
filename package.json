@@ -9,6 +9,6 @@
     "@indirect/short": "npm:@jsr/indirect__short@^1.4.4"
   },
   "devDependencies": {
-    "esbuild": "0.24.0"
+    "esbuild": "0.25.0"
   }
 }
