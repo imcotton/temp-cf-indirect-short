@@ -5,6 +5,9 @@
   "type": "module",
   "private": true,
   "sideEffects": false,
+  "scripts": {
+    "build": "node build.mjs"
+  },
   "dependencies": {
     "@indirect/short": "npm:@jsr/indirect__short@^1.4.4"
   },
