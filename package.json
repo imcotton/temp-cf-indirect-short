@@ -9,7 +9,7 @@
     "build": "node build.mjs"
   },
   "dependencies": {
-    "@indirect/short": "npm:@jsr/indirect__short@^1.4.4"
+    "@indirect/short": "npm:@jsr/indirect__short@^1.5.0"
   },
   "devDependencies": {
     "esbuild": "0.25.0"
