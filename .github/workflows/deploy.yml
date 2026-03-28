@@ -22,6 +22,8 @@ jobs:
           sed -i "s/KV_NAMESPACE_ID/${{ secrets.KV_NAMESPACE_ID }}/" wrangler.toml
 
       - uses: cloudflare/wrangler-action@v3
+        env:
+          WRANGLER_SEND_METRICS: false
         with:
           apiToken:              ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId:             ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
